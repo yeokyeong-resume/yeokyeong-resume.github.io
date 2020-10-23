@@ -20,3 +20,21 @@
 .carousel {
   margin: 0 auto;
 }
+
+.resume-project {
+  position: relative;
+}
+.resume-project-title {
+  font-size: 1.3rem;
+}
+
+.resume-project-title::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 3px;
+  background: #aab4c3;
+  left: -24px;
+  top: 10px;
+  position: absolute;
+}
